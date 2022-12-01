@@ -56,6 +56,7 @@ fn main() {
 	} else{
 		println!("Sorry you are not eligible to vote");
 	}
+	fn main(){
 	println!("Do you wish to continue to the Faculty Publication Incentive System? (1 for Yes, 2 for No");
 	let a:f32 = input8.trim().parse().expect("Not a valid number");
     io::stdin().read_line(&mut input8).expect("Not a valid string");
@@ -81,4 +82,4 @@ fn main() {
     }
 }
 	
-
+}
